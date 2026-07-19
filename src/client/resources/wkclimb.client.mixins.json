@@ -1,14 +1,14 @@
 {
-	"required": true,
-	"package": "div.wkclimb.client.mixin",
-	"compatibilityLevel": "JAVA_21",
-	"client": [
-		"ExampleClientMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
+  "required": true,
+  "package": "div.wkclimb.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "WKClimbMinecraftClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
 	}
 }
